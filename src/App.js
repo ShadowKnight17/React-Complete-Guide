@@ -8,11 +8,12 @@ function App() {
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { 
-      id: "e2", 
-      title: "New TV", 
-      amount: 799.49, 
-      date: new Date(2021, 2, 12) },
+    {
+      id: "e2",
+      title: "New TV",
+      amount: 799.49,
+      date: new Date(2021, 2, 12),
+    },
     {
       id: "e3",
       title: "Car Insurance",
@@ -32,7 +33,7 @@ function App() {
       <h2>Let's get started!</h2>
       <ExpenseItem
         title={expenses[0].title} //created a Key from using props in arguments of Expense Item Function in ExpenseItem.js
-        amount={expenses[0].amount} //then assign the value of objects of expense class we created 
+        amount={expenses[0].amount} //then assign the value of objects of expense class we created
         date={expenses[0].date}
       ></ExpenseItem>
       <ExpenseItem
